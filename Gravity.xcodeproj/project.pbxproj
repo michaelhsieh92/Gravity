@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A3A82BFF1D38226600AEA38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82BFE1D38226600AEA38B /* AppDelegate.swift */; };
-		A3A82C011D38226600AEA38B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C001D38226600AEA38B /* GameScene.sks */; };
 		A3A82C031D38226600AEA38B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C021D38226600AEA38B /* GameScene.swift */; };
 		A3A82C051D38226600AEA38B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C041D38226600AEA38B /* GameViewController.swift */; };
 		A3A82C081D38226600AEA38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C061D38226600AEA38B /* Main.storyboard */; };
@@ -16,6 +15,20 @@
 		A3A82C0D1D38226600AEA38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C0B1D38226600AEA38B /* LaunchScreen.storyboard */; };
 		A3A82C181D38226600AEA38B /* GravityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C171D38226600AEA38B /* GravityTests.swift */; };
 		A3A82C231D38226600AEA38B /* GravityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C221D38226600AEA38B /* GravityUITests.swift */; };
+		A3A82C311D38227800AEA38B /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C301D38227800AEA38B /* MSButtonNode.swift */; };
+		A3A82C331D38228D00AEA38B /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C321D38228D00AEA38B /* MainScene.sks */; };
+		A3A82C351D38229800AEA38B /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A82C341D38229800AEA38B /* MainScene.swift */; };
+		A3A82C3E1D3822FF00AEA38B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C371D3822FF00AEA38B /* background.png */; };
+		A3A82C3F1D3822FF00AEA38B /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C381D3822FF00AEA38B /* background1.png */; };
+		A3A82C401D3822FF00AEA38B /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C391D3822FF00AEA38B /* background2.png */; };
+		A3A82C411D3822FF00AEA38B /* ballHero.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C3A1D3822FF00AEA38B /* ballHero.png */; };
+		A3A82C421D3822FF00AEA38B /* bigRing.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C3B1D3822FF00AEA38B /* bigRing.png */; };
+		A3A82C431D3822FF00AEA38B /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C3C1D3822FF00AEA38B /* playButton.png */; };
+		A3A82C441D3822FF00AEA38B /* startRing.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C3D1D3822FF00AEA38B /* startRing.png */; };
+		A3A82C461D38236000AEA38B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C451D38236000AEA38B /* GameScene.sks */; };
+		A3A82C481D3825BE00AEA38B /* background3.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C471D3825BE00AEA38B /* background3.gif */; };
+		A3A82C4C1D383EEB00AEA38B /* goals.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C4B1D383EEB00AEA38B /* goals.sks */; };
+		A3A82C501D38439A00AEA38B /* goals.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A82C4F1D38439A00AEA38B /* goals.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,6 @@
 /* Begin PBXFileReference section */
 		A3A82BFB1D38226600AEA38B /* Gravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A82BFE1D38226600AEA38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3A82C001D38226600AEA38B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A3A82C021D38226600AEA38B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A3A82C041D38226600AEA38B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A3A82C071D38226600AEA38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		A3A82C1E1D38226600AEA38B /* GravityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A82C221D38226600AEA38B /* GravityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityUITests.swift; sourceTree = "<group>"; };
 		A3A82C241D38226600AEA38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A82C301D38227800AEA38B /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		A3A82C321D38228D00AEA38B /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		A3A82C341D38229800AEA38B /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		A3A82C371D3822FF00AEA38B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		A3A82C381D3822FF00AEA38B /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		A3A82C391D3822FF00AEA38B /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		A3A82C3A1D3822FF00AEA38B /* ballHero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballHero.png; sourceTree = "<group>"; };
+		A3A82C3B1D3822FF00AEA38B /* bigRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigRing.png; sourceTree = "<group>"; };
+		A3A82C3C1D3822FF00AEA38B /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		A3A82C3D1D3822FF00AEA38B /* startRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startRing.png; sourceTree = "<group>"; };
+		A3A82C451D38236000AEA38B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A3A82C471D3825BE00AEA38B /* background3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = background3.gif; sourceTree = "<group>"; };
+		A3A82C4B1D383EEB00AEA38B /* goals.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = goals.sks; sourceTree = "<group>"; };
+		A3A82C4F1D38439A00AEA38B /* goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goals.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				A3A82BFE1D38226600AEA38B /* AppDelegate.swift */,
-				A3A82C001D38226600AEA38B /* GameScene.sks */,
+				A3A82C301D38227800AEA38B /* MSButtonNode.swift */,
+				A3A82C361D3822FF00AEA38B /* assetsApp */,
+				A3A82C321D38228D00AEA38B /* MainScene.sks */,
+				A3A82C451D38236000AEA38B /* GameScene.sks */,
+				A3A82C4B1D383EEB00AEA38B /* goals.sks */,
 				A3A82C021D38226600AEA38B /* GameScene.swift */,
+				A3A82C341D38229800AEA38B /* MainScene.swift */,
 				A3A82C041D38226600AEA38B /* GameViewController.swift */,
 				A3A82C061D38226600AEA38B /* Main.storyboard */,
 				A3A82C091D38226600AEA38B /* Assets.xcassets */,
@@ -129,6 +160,22 @@
 				A3A82C241D38226600AEA38B /* Info.plist */,
 			);
 			path = GravityUITests;
+			sourceTree = "<group>";
+		};
+		A3A82C361D3822FF00AEA38B /* assetsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A3A82C471D3825BE00AEA38B /* background3.gif */,
+				A3A82C371D3822FF00AEA38B /* background.png */,
+				A3A82C381D3822FF00AEA38B /* background1.png */,
+				A3A82C391D3822FF00AEA38B /* background2.png */,
+				A3A82C3A1D3822FF00AEA38B /* ballHero.png */,
+				A3A82C4F1D38439A00AEA38B /* goals.png */,
+				A3A82C3B1D3822FF00AEA38B /* bigRing.png */,
+				A3A82C3C1D3822FF00AEA38B /* playButton.png */,
+				A3A82C3D1D3822FF00AEA38B /* startRing.png */,
+			);
+			path = assetsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +282,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A82C011D38226600AEA38B /* GameScene.sks in Resources */,
+				A3A82C431D3822FF00AEA38B /* playButton.png in Resources */,
+				A3A82C3E1D3822FF00AEA38B /* background.png in Resources */,
+				A3A82C411D3822FF00AEA38B /* ballHero.png in Resources */,
 				A3A82C0D1D38226600AEA38B /* LaunchScreen.storyboard in Resources */,
+				A3A82C461D38236000AEA38B /* GameScene.sks in Resources */,
+				A3A82C4C1D383EEB00AEA38B /* goals.sks in Resources */,
+				A3A82C421D3822FF00AEA38B /* bigRing.png in Resources */,
+				A3A82C441D3822FF00AEA38B /* startRing.png in Resources */,
+				A3A82C331D38228D00AEA38B /* MainScene.sks in Resources */,
+				A3A82C481D3825BE00AEA38B /* background3.gif in Resources */,
+				A3A82C401D3822FF00AEA38B /* background2.png in Resources */,
 				A3A82C0A1D38226600AEA38B /* Assets.xcassets in Resources */,
+				A3A82C501D38439A00AEA38B /* goals.png in Resources */,
+				A3A82C3F1D3822FF00AEA38B /* background1.png in Resources */,
 				A3A82C081D38226600AEA38B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +324,8 @@
 				A3A82C031D38226600AEA38B /* GameScene.swift in Sources */,
 				A3A82C051D38226600AEA38B /* GameViewController.swift in Sources */,
 				A3A82BFF1D38226600AEA38B /* AppDelegate.swift in Sources */,
+				A3A82C351D38229800AEA38B /* MainScene.swift in Sources */,
+				A3A82C311D38227800AEA38B /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
